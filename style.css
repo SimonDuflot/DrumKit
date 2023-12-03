@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.keys {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 6rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+}
+
+kbd {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/* Animation */
+.playing {
+  transform: scale(1.1);
+  border-color: #580303;
+  box-shadow: 0 0 1rem #580303;
+}
